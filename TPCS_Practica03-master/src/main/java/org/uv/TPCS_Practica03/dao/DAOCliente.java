@@ -63,7 +63,5 @@ public class DAOCliente implements IDAOGeneral<Cliente, Long>{
         Cliente cliente=session.get(Cliente.class, id);
         session.close();
         return cliente;
-    }
-    
-    
+    }   
 }
