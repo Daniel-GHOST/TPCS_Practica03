@@ -8,7 +8,10 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
-
+/**
+ *
+ * @author ian
+ */
 public class TPCS_Practica02 {
 
     public static void main(String[] args) {
@@ -18,8 +21,8 @@ public class TPCS_Practica02 {
         //Creación de Empleado
         Empleado emp = new Empleado();
         emp.setNombre("Ian");
-        emp.setDireccion("localhost fondo de vikiny");
-        emp.setTelefono(Long.valueOf("018003998800"));
+        emp.setDireccion("caoba 4 Mariano");
+        emp.setTelefono(Long.valueOf("123456789"));
         
         //Conexión a Postgres
         Session session = sessionFactory.openSession();

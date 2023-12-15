@@ -12,7 +12,10 @@ import org.hibernate.cfg.Environment;
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-
+/**
+ *
+ * @author ian
+ */
 public class HibernateUtil {
     private static SessionFactory sessionFactory;
     
@@ -25,7 +28,7 @@ public class HibernateUtil {
             settings.put(Environment.DRIVER, "org.postgresql.Driver");
             settings.put(Environment.URL, "jdbc:postgresql://localhost:5432/ventas");
             settings.put(Environment.USER, "postgres");
-            settings.put(Environment.PASS, "root1234");
+            settings.put(Environment.PASS, "laptophp");
             
             settings.put(Environment.SHOW_SQL, "true");
             settings.put(Environment.CURRENT_SESSION_CONTEXT_CLASS, "thread");

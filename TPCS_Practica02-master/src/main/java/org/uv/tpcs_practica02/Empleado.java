@@ -9,7 +9,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-
+/**
+ *
+ * @author ian
+ */
 public class Empleado {
     
     //Declaración de atributos de Empleado
