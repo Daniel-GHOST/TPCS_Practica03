@@ -8,8 +8,6 @@ import org.uv.TPCS_Practica03.domain.Producto;
 import org.uv.TPCS_Practica03.domain.Venta;
 import org.uv.TPCS_Practica03.hibernate.HibernateUtil;
 
-/* @author miran */
-
 public class DAOVenta implements IDAOGeneral<Venta, Long>{
 
     @Override

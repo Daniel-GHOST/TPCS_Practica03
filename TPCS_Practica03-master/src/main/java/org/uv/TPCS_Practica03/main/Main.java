@@ -8,8 +8,6 @@ import org.uv.TPCS_Practica03.domain.Cliente;
 import org.uv.TPCS_Practica03.domain.Producto;
 import org.uv.TPCS_Practica03.hibernate.HibernateUtil;
 
-/* @author miran */
-
 public class Main {
 
     public static void main(String[] args) {

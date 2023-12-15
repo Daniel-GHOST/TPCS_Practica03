@@ -6,8 +6,6 @@ import org.hibernate.Transaction;
 import org.uv.TPCS_Practica03.domain.Cliente;
 import org.uv.TPCS_Practica03.hibernate.HibernateUtil;
 
-/* @author miran */
-
 public class DAOCliente implements IDAOGeneral<Cliente, Long>{
 
     @Override

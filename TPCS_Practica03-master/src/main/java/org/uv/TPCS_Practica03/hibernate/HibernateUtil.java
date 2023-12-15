@@ -12,8 +12,6 @@ import org.uv.TPCS_Practica03.domain.Det_Venta;
 import org.uv.TPCS_Practica03.domain.Producto;
 import org.uv.TPCS_Practica03.domain.Venta;
 
-/* @author miran */
-
 public class HibernateUtil {
     private static SessionFactory sessionFactory;
     
